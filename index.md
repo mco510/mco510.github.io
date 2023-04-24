@@ -36,5 +36,11 @@ Another way to do this is to set up your site as a project in R. Then put your p
   
  There are a few technicalities you have to get through before you can publish through RStudio. 
   
-  * Set up a "personal access token", or PAT. You will use this instead of your password when you set up your site to publish. Here are some step-by-step directions for this: <<script src="https://gist.github.com/z3tt/3dab3535007acf108391649766409421.js"></script>
+  * Set up a "personal access token", or PAT. You will use this instead of your password when you set up your site to publish. Here are some step-by-step directions for this: <https://gist.github.com/z3tt/3dab3535007acf108391649766409421>
+  
+  * Change the publish directory in both your project YAML and your github site to "docs" 
+  
+  * Add a file calle .nojekyl to the root directory. This prevents the default github behavior of turning markdown into HML. 
+  
+  
   
