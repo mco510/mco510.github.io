@@ -32,3 +32,9 @@ You can also download the app, and use github that way, by transfering your site
   
 Another way to do this is to set up your site as a project in R. Then put your programs, etc, in the root directory, and tell it that you want to use it in docs. I'll show you this in class. In this case, we skip jekyll completely, and then just use the RStudio program to manage our conversion and commits. 
   
+  
+  
+ There are a few technicalities you have to get through before you can publish through RStudio. 
+  
+  * Set up a "personal access token", or PAT. You will use this instead of your password when you set up your site to publish. Here are some step-by-step directions for this: <<script src="https://gist.github.com/z3tt/3dab3535007acf108391649766409421.js"></script>
+  
